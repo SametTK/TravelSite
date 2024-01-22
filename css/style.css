@@ -1,0 +1,180 @@
+body {
+    max-width: 900px;
+    margin: 0 auto;
+    font-family: system-ui;
+}
+
+
+.profile {
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.datum {
+    margin-left: 10px;
+}
+
+header {
+    background-attachment: fixed;
+    background-position: center;
+    background-image: url("../pic/nature_01.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    /*Hintergrund bild Header*/
+
+    color: white;
+
+    text-align: right;
+    padding-top: 130px;
+    padding-bottom: 250px ;
+    max-width: 900px;
+    margin: 0 auto;
+}
+
+.container {
+    max-width: 300px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    text-align: right;
+
+}
+
+.container2 {
+    background-color: #FFF;
+    max-width: 500px; /* maximale Breite */
+    margin: 0 auto; /* Container horizontal */
+    text-align: left;
+    padding: 23px; /*  für die Höhe */
+    position: relative;
+    top: -30px; /* vertikale Position */
+}
+
+/* Article text*/
+
+.article-content {
+    display: flex;
+
+
+    text-align: center; /* Zentriert den Text horizontal */
+    position: relative;
+    left: 404px;
+    top: -415px;
+}
+
+.text1{
+    max-width: 475px;
+    position: relative;
+    left: 415px;
+    top: -365px;
+}
+
+
+
+
+.article-image img {
+    width: 400px;
+    max-width: 100%;
+    height: auto;
+    border-radius: 5px; /* Optional: Runde Ecken für das Bild */
+}
+
+.article-text {
+    margin-top: 20px; /* Abstand zwischen Bild und Text anpassen */
+}
+
+.article-text p {
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+
+.article-image img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 5px; /* Optional: Runde Ecken für das Bild */
+}
+
+/*Haven Remote article */
+.haven{
+    font-family: Monaco, monospace;
+    line-height: 1.7;
+
+
+}
+
+
+
+/*Galarie*/
+
+.gallery {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    max-width: 900px;
+    margin: 0 auto;
+    padding: 10px;
+}
+
+
+
+.gallery-list {
+    list-style: none; /* Entfernt die Aufzählungspunkte */
+    padding: 0; /* Entfernt den Standard-Innenabstand für Listen */
+    display: flex; /* Flexbox für horizontale Anordnung der Listenelemente */
+    flex-wrap: wrap; /* Ermöglicht das Umbruch von Elementen in neue Zeilen */
+    justify-content: space-between; /* Gleichmäßige Verteilung der Listenelemente */
+
+}
+
+
+.gallery-list li {
+    width: calc(33.33% - 10px); /* Berechnet die Breite für 3 Bilder in einer Zeile mit Abstand dazwischen */
+    margin-bottom: 20px;
+}
+
+/* Stil für die Bildunterschrift */
+.gallery-list figcaption {
+    text-align: center;
+}
+
+/*-----*/
+
+/*Foot*/
+
+
+footer {
+    margin: 0;
+    background-image: url("../pic/lagerfeuer.jpg");
+    text-align: center;
+    padding: 200px;
+    background-size: cover;
+    background-position: center;
+    color: white;
+}
+
+input {
+    padding: 10px;
+    margin: 10px;
+    width: 200px;
+}
+
+button {
+    padding: 10px;
+    margin: 10px;
+    background-color: #3498db;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+.social-icons {
+    margin-top: 20px;
+}
+
+.social-icons img {
+    width: 30px;
+    margin: 0 10px;
+}
